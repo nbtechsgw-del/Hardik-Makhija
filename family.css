@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-image: url(https://t3.ftcdn.net/jpg/06/00/23/48/360_F_600234842_w3DnS8s2IYltrsFE88RSJBSF9iShR431.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.container {
+    width: 350px;
+    margin: auto;
+}
+
+.form {
+    background: white;
+    padding: 15px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 12px;
+}
+
+.form:hover {
+    box-shadow: 0 0 15px rgb(33, 33, 33);
+}
+
+input {
+    width: 90%;
+    padding: 11px;
+    margin: 7px;
+}
+
+input:hover {
+    border: 1px solid green;
+    background-color: rgb(171, 183, 169);
+    transition: 0.5s;
+}
+
+button {
+    padding: 10px;
+    width: 95%;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+}

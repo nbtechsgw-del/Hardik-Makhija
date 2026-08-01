@@ -1,0 +1,25 @@
+{
+  "name": "sgw-internship",
+  "version": "1.0.0",
+  "main": "article.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardikmakhija40-sketch/sgw-internship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardikmakhija40-sketch/sgw-internship/issues"
+  },
+  "homepage": "https://github.com/hardikmakhija40-sketch/sgw-internship#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-scripts": "^5.0.1"
+  }
+}

@@ -1,0 +1,81 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    text-align: right;
+    font-size: 30px;
+    color: rgb(0, 102, 174);
+}
+.logo {
+    text-align: left;
+    font-size: 35px;
+    color: rgb(0, 102, 174);
+}
+
+.contactform { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: darkorange;
+}
+h1{
+    text-align: left;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+    
+}
+h2{
+    font-size: 35px;
+    text-align: left;
+    color: rgb(2, 251, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+td{
+    color:darkorange;
+}
+
+th{
+    color: beige;
+}
+    
+ul{
+    color: rgb(255, 67, 49);
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.educationtable{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo a, .navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+.logo a:hover, .navbar a:hover{
+    color: rgb(34, 0, 255);
+}

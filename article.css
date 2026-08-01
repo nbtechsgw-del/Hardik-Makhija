@@ -1,0 +1,53 @@
+h1 {
+    color: #0073ad;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+.imagerow {
+    display: flex;
+    gap: 20px;
+}
+
+.imagerow img {
+    width: 400px;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: fantasy;
+}
+
+article imgcaption {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: fantasy;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/overhead-shot-open-bible-notepad-with-pen-white-surface_181624-7038.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: contain;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+}

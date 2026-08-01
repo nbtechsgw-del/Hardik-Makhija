@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px;
+}
+
+input {
+    margin: 7px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-image: url('https://media.licdn.com/dms/image/v2/D4E12AQGupKtYX6Xojw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1689854556613?e=2147483647&v=beta&t=s6FXx2t3ulA9HNMXGm9eqkltrnDobLYWeT-qCklVBiY');
+    background-size: cover;
+}
+
+.signup form button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.signup form button:hover {
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.signup form input:hover {
+    color: #000;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.labelinputs {
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.labelinputs {
+    color: #000;
+}
